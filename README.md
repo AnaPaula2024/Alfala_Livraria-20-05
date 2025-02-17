@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# Alfafa_Livraria
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
+Uma aplicação de livraria online desenvolvida com React.
 
-## Available Scripts
+## Estrutura de Pastas
 
-In the project directory, you can run:
+### Pastas e Arquivos Principais
+- **OpçõesCabeçalho**: Contém os componentes que formam as opções do cabeçalho da aplicação.
+- **Pesquisa**: Contém componentes relacionados à funcionalidade de pesquisa de livros.
+- **Título**: Contém componentes que gerenciam o título da aplicação.
+- **Últimos Lançamentos**: Contém componentes que mostram os últimos lançamentos de livros.
 
-### `npm start`
+### Imagens
+Contém arquivos de imagem utilizados no projeto:
+  - `livro.png`, `livro2.png`, `livro3.png`, `livro4.png`, `livro5.png`, `livro6.png`: Imagens de livros.
+  - `logo.svg`: Imagem do logotipo.
+  - `perfil.svg`: Imagem de perfil.
+  - `sacola.svg`: Imagem de sacola.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Arquivos principais
+- **Aplicativo.js**: Arquivo principal do aplicativo.
+- **Aplicativo.test.js**: Arquivo de testes do aplicativo.
+- **índice.js**: Arquivo de índice.
+- **relatórioWebVitals.js**: Arquivo de relatórios de desempenho.
+- **setupTests.js**: Arquivo de configuração de testes.
+- **.gitignore**: Arquivo de configuração do Git para ignorar certos arquivos e pastas.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Pastas adicionais
+- **público**: Contém arquivos públicos utilizados no projeto.
+  - `favicon.ico`: Ícone do favicon.
+  - `índice.html`: Arquivo HTML principal.
+  - `logo192.png`, `logo512.png`: Imagens do logotipo em diferentes resoluções.
+  - `manifesto.json`: Arquivo de manifesto da aplicação.
+  - `robôs.txt`: Arquivo de regras para motores de busca.
 
-### `npm test`
+- **fonte**: Contém o código-fonte do projeto.
+  - **componentes**: Contém componentes reutilizáveis do projeto.
+    - **CardRecomenda**
+      - `índice.js`: Arquivo de índice do componente CardRecomenda.
+    - **Cabeçalho**: Contém componentes relacionados ao cabeçalho da aplicação.
+    - **Cabeçalho de ícones**: Contém os ícones usados no cabeçalho.
+    - **Entrada**: Componente de entrada de texto.
+    - **Logotipo**: Componente do logotipo da aplicação.
+    - **OpçõesCabeçalho**: Contém as opções do cabeçalho.
+    - **Pesquisa**: Contém componentes relacionados à pesquisa de livros.
+    - **Título**: Componente que gerencia o título da aplicação.
+    - **Últimos Lançamentos**: Componente que mostra os últimos lançamentos de livros.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Como Usar
 
-### `npm run build`
+### 1. Clone este repositório:
+```bash
+git clone https://github.com/seu-usuario/alfafa_livraria.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. Navegue até o diretório do projeto:
+```bash
+cd alfafa_livraria
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3. Instale as dependências:
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 4. Execute o aplicativo:
+```bash
+npm start
+```
+Abra [http://localhost:3000](http://localhost:3000) no navegador de sua escolha para ver a aplicação funcionando.
 
-### `npm run eject`
+## 👥 Como Contribuir
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contribuições são muito bem-vindas! Se você deseja colaborar com o projeto, siga os passos abaixo:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Faça um fork deste repositório.
+2. Crie uma nova branch para a sua feature (`git checkout -b feature/nova-feature`).
+3. Realize suas alterações e faça um commit (`git commit -m 'Adicionando uma nova feature'`).
+4. Envie suas alterações para a branch original (`git push origin feature/nova-feature`).
+5. Abra um Pull Request para revisão.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📝 Licença
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para mais informações.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**🌟 Se você gostou, não se esqueça de dar uma estrela no repositório! Isso nos ajuda a alcançar mais entusiastas e colaboradores.**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📬 Contato
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Caso tenha alguma dúvida ou sugestão, sinta-se à vontade para abrir uma issue ou me contatar diretamente:
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 📧 **E-mail (Senac):** ana.ppviana@senacsp.edu.br 
+- 📧 **E-mail (Hotmail):** ana.pereira.viana@hotmail.com  
+- 📧 **E-mail (Gmail):** paulinhapv22@gmail.com  
